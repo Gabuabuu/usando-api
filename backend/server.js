@@ -8,3 +8,4 @@ app.get('/',  (req, res) => {
 })
 
 app.listen('2811') //Limite de numeros para a porta observar é de '5'??
+console.log('Server is okay')

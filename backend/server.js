@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 
+app.use(cors())
 app.get('/',  (req, res) => {
     return res.json({ message: 'Okay' })
 })
